@@ -152,3 +152,32 @@ main {
     font-weight: 700;
     line-height: 30px;
 }
+
+.skills-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.skill {
+    padding: 33px;
+    margin-right: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
