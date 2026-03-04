@@ -1,0 +1,87 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 150px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.common-Orange {
+    color: #FD6E0A;
+}
+
+nav>h3 {
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+header {
+    background-color: #FFF8F3;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: left top, bottom right;
+}
+
+.Pirmary-btn {
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-right: 20px;
+}
+
+.banner-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-name {
+    font-size: 85px;
+    font-weight: bold;
+    margin: 0px
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 150px;
+    align-items: center;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+.banner-picture {
+    max-width: 580px;
+}
