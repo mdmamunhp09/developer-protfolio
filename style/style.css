@@ -1,3 +1,17 @@
+/* shared style */
+.section-descritption,
+.item-descritption {
+
+    color: #757575;
+    font-size: 18px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -66,11 +80,6 @@ header {
     margin: 0px
 }
 
-.banner-description {
-    color: #757575;
-    font-size: 18px;
-}
-
 .banner {
     display: flex;
     justify-content: space-between;
@@ -84,4 +93,76 @@ header {
 
 .banner-picture {
     max-width: 580px;
+}
+
+
+/* About Section Start */
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+em-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-item {
+    margin-right: 50px;
+}
+
+.about {
+    max-width: 1140px;
+    margin: auto;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    border-radius: 10px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+/* skill section start  */
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-container{
+    display: flex;
+   gap:30px;
+    
+}
+
+.skils{
+    max-width: 1390px;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.skill{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 10px 0px #000000;
+    padding: 30px;
+}
+.resume-container{
+    max-width: 1300px;
+    margin:auto
+}
+.exprince-conteinar{
+    display: flex;
+    gap:70px
+}
+.exprience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.exprience-history{
+    font-size: 20px;
+    color: #757575;
+}
+.column-title{
+    font-size: 30px;
+    font-weight: bold;
 }
