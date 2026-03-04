@@ -166,3 +166,31 @@ em-title {
     font-size: 30px;
     font-weight: bold;
 }
+
+footer{
+    display: flex;
+    gap:100px;
+    background-color: #FFF8F3;
+    padding:130px 200px;
+   margin-top: 30px;
+
+}
+.footer-column{
+    width:50% ;
+    
+}
+
+.contact input[type="text"],.contact input[type="email"],textarea{
+    display: block;
+    width: 100%;
+    padding: 18px 35px;
+    margin-bottom: 20px;
+    background: #FFF;
+    border: none;
+    border-radius: 5px;
+    color:#757575
+}
+.social-media img{
+    width: 20px;
+    margin-right: 20px;
+}
